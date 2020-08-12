@@ -2,7 +2,7 @@
 
 # Instalação
 
-- Clonar o repositorio em sua máquina usando `https://github.com/fellipeconforto94/desafio_web.git`
+- Clonar o repositório em sua máquina usando `https://github.com/fellipeconforto94/desafio_web.git`
 
 - Instalar todas as dependencias no pom.xml(Selenium, Cucumber, Junit, ...)
 
