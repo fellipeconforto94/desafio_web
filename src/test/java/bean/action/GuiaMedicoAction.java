@@ -15,27 +15,27 @@ public class GuiaMedicoAction extends Commands {
 	}
 
 	private void pesquisarEspecialidade(String especialidade) {
-		escrever(especialidade, guiaMedico.inputPesquisa);
-		clicar(guiaMedico.btnPesquisar);
+		sendKeys(especialidade, guiaMedico.inputPesquisa);
+		click(guiaMedico.btnPesquisar);
 	}
 
 	private void pesquisarEstadoCidade(String estado, String cidade) {
 		isAttachedToHtml(guiaMedico.inputEstado);
-		clicar(guiaMedico.inputEstadoClick);
-		escrever(estado, guiaMedico.inputEstado);
-		pressionarEnter(guiaMedico.inputEstado);
-		clicar(guiaMedico.inputCidadeClick);
-		escrever(cidade, guiaMedico.inputCidade);
-		pressionarEnter(guiaMedico.inputCidade);
+		click(guiaMedico.inputEstadoClick);
+		sendKeys(estado, guiaMedico.inputEstado);
+		pressEnter(guiaMedico.inputEstado);
+		click(guiaMedico.inputCidadeClick);
+		sendKeys(cidade, guiaMedico.inputCidade);
+		pressEnter(guiaMedico.inputCidade);
 	}
 
 	private void selecionarRegiaoAtendida() {
 		isAttachedToHtml(guiaMedico.rdUnimedPreferencia);
-		clicar(guiaMedico.rdUnimedPreferencia);
+		click(guiaMedico.rdUnimedPreferencia);
 	}
 
 	private void clickContinuar() {
-		clicar(guiaMedico.btnContinuar);
+		click(guiaMedico.btnContinuar);
 	}
 
 	public boolean verificarEspecialidade(String especialidade) {
