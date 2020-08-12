@@ -2,16 +2,16 @@
 
 # Instalação
 
-- Clonar o repositorio em sua máquina usando `https://github.com/fellipeconforto94/desafio_web.git`
+- Clonar o repositório em sua máquina usando `https://github.com/fellipeconforto94/desafio_web.git`
 
 - Instalar todas as dependencias no pom.xml(Selenium, Cucumber, Junit, ...)
 
 - mvn install
 
-# How to run
+# Como Rodar
 
-> Browser
-- A escolha de qual browser utilizar é no arquivo /desafio_web/src/test/resources/config.properties.
+> Navegador
+- A escolha de qual navegador utilizar é no arquivo /desafio_web/src/test/resources/config.properties.
 - As opções são: chrome e firefox.
 
 > Execução dos CTs
