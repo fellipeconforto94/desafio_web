@@ -55,7 +55,7 @@ public class DriverLoading {
 			break;
 
 		default:
-			throw new NotFoundException("Navegador inv�lido. Por favor, escolher um browser v�lido");
+			throw new NotFoundException("Navegador inválido. Por favor, escolher um browser válido");
 		}
 
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
