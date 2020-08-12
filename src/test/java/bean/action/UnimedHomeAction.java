@@ -12,6 +12,6 @@ public class UnimedHomeAction extends Commands {
 	public void acessarMenuUnimed(String menu) {
 		By btnMenuGuiaMedico = By.linkText(menu);
 		isAttachedToHtml(unimedHome.navBarMenu);
-		clicar(btnMenuGuiaMedico);
+		click(btnMenuGuiaMedico);
 	}
 }

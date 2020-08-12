@@ -17,19 +17,19 @@ public class Commands extends DriverLoading {
 		return DriverLoading.driver;
 	}
 
-	protected void abrirUrl(String url) {
+	protected void openUrl(String url) {
 		getDriver().get(url);
 	}
 
 
-	protected void escrever(String datatype, By locator) {
+	protected void sendKeys(String datatype, By locator) {
 		isVisible(locator);
 		getElement(locator).clear();
 		this.waitForTextInElement(locator, "");
 		getElement(locator).sendKeys(datatype);
 	}
 
-	protected void clicar(By locator) {
+	protected void click(By locator) {
 		isClickable(locator);
 		getElement(locator).click();
 	}
