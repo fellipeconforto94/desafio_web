@@ -23,10 +23,10 @@ public class GuiaMedicoAction extends Commands {
 		isAttachedToHtml(guiaMedico.inputEstado);
 		click(guiaMedico.inputEstadoClick);
 		sendKeys(estado, guiaMedico.inputEstado);
-		pressionarEnter(guiaMedico.inputEstado);
+		pressEnter(guiaMedico.inputEstado);
 		click(guiaMedico.inputCidadeClick);
 		sendKeys(cidade, guiaMedico.inputCidade);
-		pressionarEnter(guiaMedico.inputCidade);
+		pressEnter(guiaMedico.inputCidade);
 	}
 
 	private void selecionarRegiaoAtendida() {

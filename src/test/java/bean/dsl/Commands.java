@@ -64,7 +64,7 @@ public class Commands extends DriverLoading {
 		}
 	}
 
-	protected void pressionarEnter(By locator) {
+	protected void pressEnter(By locator) {
 		isVisible(locator);
 		getElement(locator).sendKeys(Keys.ENTER);
 	}
